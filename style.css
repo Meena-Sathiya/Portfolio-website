@@ -1,0 +1,40 @@
+/* basic style */
+*{margin: 0;padding: 0s;}
+
+body{font-family: "Josefin Sans", sans-serif;}
+
+.container{padding: 60px;}
+
+.section1{background-color:  darkcyan;padding: 20px ;}
+
+.section1__contact{background-color:rgb(5, 62, 84);color: white;padding-left: 10px; padding-right: 10px; padding-top: 5px;padding-bottom: 5px; text-decoration: none;border-radius:5px;display: inline-block;margin-top: 10px;}
+.section1__contact:hover{background-color:yellowgreen;}
+.section1__heading1{font-size: 50px;}
+.section1__para1{font-size: 30px;margin-top: 15px;}
+.section2,.section3,.section4,.section5{margin-top: 20px;}
+.section2__para2,.section3__para2,.section4__para2,.section5__para2{margin-top: 10px;}
+
+.section5{background-color: darkcyan;padding: 20px;border:solid black 2px; text-align: center;}
+.section5__heading2 a{color: yellowgreen;}
+.section3 li,.section4 li {list-style: none;}
+
+.section3{background-color: rgb(148, 138, 216);color: white;padding: 20px;display: inline-block;height: 150px;border-radius: 10px;vertical-align: top;}
+.section4{background-color: rgb(216, 129, 67);color: white;padding: 20px;display: inline-block;height: 150px;border-radius: 10px;}
+
+/* contact form style */
+.contactform{padding: 10px;}
+
+.contactform__name,.contactform__mail,.contactform__text,.contactform__submit,.contactform__reset{margin-top: 10px;}
+
+.contactform__name,.contactform__mail{border: none;border-bottom: dotted black 2px;}
+.contactform__text{border: solid black 3px;}
+
+.contactform__1,.contactform__2,.contactform__3{padding-top: 20px; margin-top: 20px;}
+
+.contactform__submit,.contactform__reset{width: 90px;background-color:rgb(135, 176, 193)}
+.contactform__submit:hover,.contactform__reset:hover{background-color:gold ;}
+
+
+
+
+
