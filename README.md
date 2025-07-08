@@ -6,7 +6,7 @@ This project is built using **pure HTML and CSS**. It includes a **Home page** a
 ---
 
 ## 🚀 Live Site
-👉 [Click here to view the live portfolio](https://meena-sathiya.github.io/your-repo-name/)  
+👉 [Click here to view the live portfolio](https://meena-sathiya.github.io/Portfolio-website/))  
 *(Replace the link with your actual GitHub Pages URL)*
 
 ---
