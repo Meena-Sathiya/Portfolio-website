@@ -1,26 +1,129 @@
 /* basic style */
-*{margin: 0;padding: 0s;}
+*{margin: 0;padding: 0;}
 
 body{font-family: "Josefin Sans", sans-serif;}
 
-.container{padding: 60px;}
 
-.section1{background-color:  darkcyan;padding: 20px ;}
 
-.section1__contact{background-color:rgb(5, 62, 84);color: white;padding-left: 10px; padding-right: 10px; padding-top: 5px;padding-bottom: 5px; text-decoration: none;border-radius:5px;display: inline-block;margin-top: 10px;}
+.container{
+    max-width: 100%;
+    margin: auto;
+    color: aliceblue;
+    
+    }
+    .section1{
+        background-image: url("images/bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        min-height: 450px;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        text-align: center;
+        color: white;
+    }
+       
+.section1{background-color:  darkcyan;padding: 20px ;color: white;}
+
+.section1{
+    background-image: url("images/bg.png");
+    background-size: cover;          /* full cover */
+    background-position: center;     /* center align */
+    background-repeat: no-repeat;
+
+    min-height: 350px;               /* control height */
+    width: 100%;                     /* full width */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+
+
+.section1__content{
+    color: white;
+}
+
+.section1__heading1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.section1__para1{
+    font-size: 28px;
+}
+.section1__subtitle{
+    margin-top: 10px;
+}
+
+.section1__contact{
+    display: inline-block;
+    margin-top: 15px;
+    color:azure
+}
+
+
+
 .section1__contact:hover{background-color:yellowgreen;}
-.section1__heading1{font-size: 50px;}
+.section1__heading1{font-size: 50px;;}
 .section1__para1{font-size: 30px;margin-top: 15px;}
 .section2,.section3,.section4,.section5{margin-top: 20px;}
 .section2__para2,.section3__para2,.section4__para2,.section5__para2{margin-top: 10px;}
+.section2__para2{color: black;}
+.section2__heading2{color: black;}
 
-.section5{background-color: darkcyan;padding: 20px;border:solid black 2px; text-align: center;}
+
+
+.section5{background-color: #ffffff;padding: 20px;border:solid black 2px; text-align: center;}
 .section5__heading2 a{color: yellowgreen;}
-.section3 li,.section4 li {list-style: none;}
+.section5{
+    color: black;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
 
-.section3{background-color: rgb(148, 138, 216);color: white;padding: 20px;display: inline-block;height: 150px;border-radius: 10px;vertical-align: top;}
-.section4{background-color: rgb(216, 129, 67);color: white;padding: 20px;display: inline-block;height: 150px;border-radius: 10px;}
+.section5 a{
+    color: rgb(37, 14, 207);
+    text-decoration: none;
+}
 
+.section5 a:hover{
+    text-decoration: underline;
+}
+
+.section4__para2{
+    line-height: 1.6;
+    }
+    
+.section4 li {list-style: none;}
+
+
+    .section4{
+    background-color: #032234;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    min-height: 150px;width: 100%;
+    border-radius: 10px;
+    vertical-align: top;
+    }
+    .section4__heading2{
+        text-align:center;
+        margin-bottom:20px;
+    }
+    
+    
 /* contact form style */
 .contactform{padding: 10px;}
 
@@ -34,6 +137,46 @@ body{font-family: "Josefin Sans", sans-serif;}
 .contactform__submit,.contactform__reset{width: 90px;background-color:rgb(135, 176, 193)}
 .contactform__submit:hover,.contactform__reset:hover{background-color:gold ;}
 
+.project-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;   /* center horizontally */
+    flex-wrap: wrap;           /* responsive */
+}
+
+.project-card{
+    display: inline-block;
+    width: 320px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    transition: all 0.35s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
+}
+
+
+.project-image{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-card h3{
+    margin-top: 10px;
+}
+
+.project-card p{
+    font-size: 14px;
+}
 
 
 
